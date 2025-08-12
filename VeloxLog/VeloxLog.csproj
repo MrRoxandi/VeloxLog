@@ -6,13 +6,26 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<Authors>Velox</Authors>
+		<Authors>Roxandi</Authors>
 		<Description>A high-performance, lightweight, single-file-friendly logging library for .NET.</Description>
 		<PackageProjectUrl>https://github.com/MrRoxandi/VeloxLog</PackageProjectUrl>
 		<!-- Замените на свой URL -->
 		<RepositoryUrl>https://github.com/MrRoxandi/VeloxLog</RepositoryUrl>
 		<!-- Замените на свой URL -->
 		<PackageTags>logging;logger;performance;lightweight;velox</PackageTags>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>VeloxLog</Title>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReleaseNotes>init release</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
