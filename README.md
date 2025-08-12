@@ -5,7 +5,7 @@
 **VeloxLog** is a high-performance, lightweight, and modern logging library for .NET. It's designed with a focus on speed, low allocation, and a simple, intuitive API. Whether you're building a simple console app or a high-traffic web service, VeloxLog provides the flexibility and performance you need.
 
 [![NuGet version](https://img.shields.io/nuget/v/VeloxLog.svg?style=flat-square)](https://www.nuget.org/packages/VeloxLog/)
-[![License](https://img.shields.io/github/license/your-username/VeloxLog?style=flat-square)](https://github.com/your-username/VeloxLog/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/MrRoxandi/VeloxLog?style=flat-square)](https://github.com/MrRoxandi/VeloxLog/blob/main/LICENSE)
 
 ## Features
 
