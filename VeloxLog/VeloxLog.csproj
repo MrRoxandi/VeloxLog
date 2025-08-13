@@ -19,6 +19,7 @@
 		<PackageReleaseNotes>init release</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
