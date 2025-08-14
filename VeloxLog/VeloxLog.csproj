@@ -16,10 +16,18 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>VeloxLog</Title>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageReleaseNotes>init release</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated default formatter. Now works with {}, {0}, {varName} template</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Version>1.0.1</Version>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0|AnyCPU'">
+	  <WarningLevel>8</WarningLevel>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0|AnyCPU'">
+	  <WarningLevel>8</WarningLevel>
 	</PropertyGroup>
 
 	<ItemGroup>
