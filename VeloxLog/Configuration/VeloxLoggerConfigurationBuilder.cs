@@ -79,7 +79,7 @@ public sealed class VeloxLoggerConfigurationBuilder
     /// <summary>
     /// Builds the final <see cref="VeloxLoggerConfiguration"/> object.
     /// </summary>
-    internal VeloxLoggerConfiguration Build()
+    public VeloxLoggerConfiguration Build()
     {
         if (_config.Targets.Count == 0)
         {
