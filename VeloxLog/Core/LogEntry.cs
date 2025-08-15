@@ -8,6 +8,7 @@ public readonly struct LogEntry(LogLevel level, string source, string messageTem
 {
     /// <inheritdoc/>
     public DateTime TimeStamp { get; } = DateTime.UtcNow;
+    /// <inheritdoc/>
     public LogLevel Level { get; } = level;
     public string Source { get; } = source ?? "<Unknown>";
     public string MessageTemplate { get; } = messageTemplate ?? string.Empty;
